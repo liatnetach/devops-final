@@ -1,9 +1,9 @@
 <HTML>
     <HEAD>
-        <TITLE>A Catalog Orderrr Form</TITLE>
+        <TITLE>A Catalog Order Form</TITLE>
     </HEAD>
     <BODY>
-    <H1 ALIGN="center">A Sample Orderrr Form</H1>
+    <H1 ALIGN="center">A Sample Order Form</H1>
     <%! 
         String item[] = {"DVD", "CD", "Diskette"};
         double price[] = {19.99, 12.99, 1.99};
