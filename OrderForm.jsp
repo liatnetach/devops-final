@@ -1,5 +1,4 @@
-<HTML>
-    <HEAD>
+<HT
         <TITLE>A Catalog Order Form</TITLE>
     </HEAD>
     <BODY>
