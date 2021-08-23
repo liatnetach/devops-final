@@ -2,12 +2,12 @@
         <TITLE>A Catalog Order Form</TITLE>
     </HEAD>
     <BODY>
-    <H1 ALIGN="center">A Sample Order Form</H1>
+    <H1 ALIGN="center">A Sample Order Form</H1>cc432!@@##
     <%! 
         String item[] = {"DVD", "CD", "Diskette"};
         double price[] = {19.99, 12.99, 1.99};
         int quantity[] = {2, 9, 24};
-    %>
+    %!!!
     <TABLE ALIGN="center" BGCOLOR="lightgray" BORDER="1" WIDTH="75%">
     <TR><TD>Item</TD>
     <TD>Price</TD>
@@ -21,6 +21,5 @@
           <TD><%= price[i] * quantity[i] %></TD>
           </TR>
     <% } //end for loop %>
-    </TABLE>
-    </BODY>
-    </HTML>
+    </TfODY>
+    </HTcML>
