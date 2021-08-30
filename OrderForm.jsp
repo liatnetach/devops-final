@@ -9,18 +9,18 @@
 <body style="background-color:#FF00FF;" align="center" width = "100%" border = "0" >
 	<table style="width:100%">
 		<tr >
-			<td><h1>DEvops course in HIT - the best course students can get! </h1></td>
+			<td><h1>Devops course in HIT - the best course students can get! </h1></td>
 		</tr>
 		<tr >
-			<td><h2>Which degree are you studying</h2></td>
+			<td><h2>Which subjet you love the most?</h2></td>
 		</tr>
 		<tr>
 			<td>
 					<form method="get">
-						<input type="radio" name="dgree" value="you thought you are going do code haa?">Computer science
-						<input type="radio" name="dgree" value="computerScience.concat(physics)">Computer engineering
-						<input type="radio" name="dgree" value="in the industry you are going to code anyway">Electric engineering
-						<input type="radio" name="dgree" value="4 years to be a product manager">Industrial engineering
+						<input type="radio" name="dgree" value="WRONG ANSWER">C programming
+						<input type="radio" name="dgree" value="Tere you go! GOOD ONE!">Devops
+						<input type="radio" name="dgree" value="WRONG ANSWER">Reverse engineering 
+						<input type="radio" name="dgree" value="WRONG ANSWER">IOT
 						<input type="submit" value="Query">
 					</form>
 			</td>
@@ -31,14 +31,14 @@
 				if (dgrees != null) {
 			%>
 			<td>
-				<h3>Lets see:</h3>
+				<h4>Lets see:</h4>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<ul>
 					<%for (String dgree : dgrees) { %>
-					<li style="background-color:#0FFFFF; color:#FFFF; font-size:200%;font-family:verdana;"><%= dgree %></li>
+					<li style="background-color:#FF00FF; color:#FFFF; font-size:100%;font-family:verdana;"><%= dgree %></li>
 					<%}%>
 				</ul>
 				<%}%>
