@@ -17,28 +17,28 @@
 		<tr>
 			<td>
 					<form method="get">
-						<input type="radio" name="dgree" value="WRONG ANSWER">C programming
-						<input type="radio" name="dgree" value="Tere you go! GOOD ONE!">Devops
-						<input type="radio" name="dgree" value="WRONG ANSWER">Reverse engineering 
-						<input type="radio" name="dgree" value="WRONG ANSWER">IOT
-						<input type="submit" value="Query">
+						<input type="radio" name="subject" value="WRONG ANSWER">C programming
+						<input type="radio" name="subject" value="Tere you go! GOOD ONE!">Devops
+						<input type="radio" name="subject" value="WRONG ANSWER">Reverse engineering 
+						<input type="radio" name="subject" value="WRONG ANSWER">IOT
+						<input type="submit" value="Submit">
 					</form>
 			</td>
 		</tr>
 		<tr>
 			<% 
-				String[] dgrees = request.getParameterValues("dgree");
+				String[] subjects = request.getParameterValues("subject");
 				if (dgrees != null) {
 			%>
 			<td>
-				<h4>Lets see:</h4>
+				<h3>Lets see:</h3>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<ul>
-					<%for (String dgree : dgrees) { %>
-					<li style="background-color:#FF00FF; color:#FFFF; font-size:100%;font-family:verdana;"><%= dgree %></li>
+					<%for (String subject : subjects) { %>
+					<li style="background-color:#FF00FF; color:#FFFF; font-size:100%;font-family:verdana;"><%= subject %></li>
 					<%}%>
 				</ul>
 				<%}%>
