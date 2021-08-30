@@ -28,7 +28,7 @@
 		<tr>
 			<% 
 				String[] subjects = request.getParameterValues("subject");
-				if (dgrees != null) {
+				if (subjects != null) {
 			%>
 			<td>
 				<h3>Lets see:</h3>
