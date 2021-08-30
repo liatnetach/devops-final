@@ -6,10 +6,10 @@
   <title>HIT - devops students survey</title>
 </head>
      
-<body style="background-color:#00BFFF;" align="center" width = "100%" border = "0" >
+<body style="background-color:#FF00FF;" align="center" width = "100%" border = "0" >
 	<table style="width:100%">
 		<tr >
-			<td><h1>Devops - The best course in HIT</h1></td>
+			<td><h1>Devops - The best course in HIT!</h1></td>
 		</tr>
 		<tr >
 			<td><h2>Which subjets you want to learn more about</h2></td>
@@ -47,5 +47,20 @@
 	</table>
 
 	  <br /><a href="<%= request.getRequestURI() %>">BACK</a> 
+	 Integer hitsCount = (Integer)application.getAttribute("hitCounter");
+         if( hitsCount ==null || hitsCount == 0 ) {
+            /* First visit */
+            out.println("Welcome to my website!");
+            hitsCount = 1;
+         } else {
+            /* return visit */
+            out.println("Welcome back to my website!");
+            hitsCount += 1;
+         }
+         application.setAttribute("hitCounter", hitsCount);
+      %>
+      <center>
+         <p>Total number of visits: <%= hitsCount%></p>
+      </center>
 <body>
 </html>
