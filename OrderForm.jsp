@@ -44,6 +44,10 @@
 				<%}%>
 			</td>
 		</tr>
+					<td><h1>Thank you Ziv for letting us finish this degree with a smile after all </h1></td>
+							<td><h1>Liat Netach & Orel Nafusi </h1></td>
+
+
 	</table>
 <body>
 </html>
