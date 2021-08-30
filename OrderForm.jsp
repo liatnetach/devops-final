@@ -18,7 +18,7 @@
 			<td>
 					<form method="get">
 						<input type="radio" name="subject" value="WRONG ANSWER">C programming
-						<input type="radio" name="subject" value="Tere you go! GOOD ONE!">Devops
+						<input type="radio" name="subject" value="There you go! GOOD ONE!">Devops
 						<input type="radio" name="subject" value="WRONG ANSWER">Reverse engineering 
 						<input type="radio" name="subject" value="WRONG ANSWER">IOT
 						<input type="submit" value="Submit">
@@ -44,10 +44,11 @@
 				<%}%>
 			</td>
 		</tr>
-					<td><h1>Thank you Ziv for letting us finish this degree with a smile after all </h1></td>
-							<td><h1>Liat Netach & Orel Nafusi </h1></td>
+				
 
 
-	</table>
+	</table>	
+	<h4>Thank you Ziv for letting us finish this degree with a smile after all </h4>
+							<h4>Liat Netach & Orel Nafusi </h4>
 <body>
 </html>
