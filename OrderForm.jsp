@@ -9,20 +9,20 @@
 <body style="background-color:#FF00FF;" align="center" width = "100%" border = "0" >
 	<table style="width:100%">
 		<tr >
-			<td><h1>Devops - The best course in HIT!</h1></td>
+			<td><h1>DEvops course in HIT - the best course students can get! </h1></td>
 		</tr>
 		<tr >
-			<td><h2>Which subjets you want to learn more about</h2></td>
+			<td><h2>Which degree are you studying</h2></td>
 		</tr>
 		<tr>
 			<td>
-					<form action = "OrderForm.jsp" method = "POST" target = "_blank">
-         <input type = "checkbox" name = "maths" checked = "checked" /> Maths
-         <input type = "checkbox" name = "physics"  /> Physics
-         <input type = "checkbox" name = "chemistry" checked = "checked" /> Chem
-         <input type = "submit" value = "Select Subject" />
-      </form>
-
+					<form method="get">
+						<input type="radio" name="dgree" value="you thought you are going do code haa?">Computer science
+						<input type="radio" name="dgree" value="computerScience.concat(physics)">Computer engineering
+						<input type="radio" name="dgree" value="in the industry you are going to code anyway">Electric engineering
+						<input type="radio" name="dgree" value="4 years to be a product manager">Industrial engineering
+						<input type="submit" value="Query">
+					</form>
 			</td>
 		</tr>
 		<tr>
