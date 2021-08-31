@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>HIT - devops students survey</title>
+  <title>HIT - Orel Nafusi and Liat Netach</title>
 </head>
      
 <body style="background-color:#FF00FF;" align="center" width = "100%" border = "0" >
