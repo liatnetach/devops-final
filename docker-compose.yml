@@ -1,0 +1,16 @@
+version: '3'
+services:
+ jenkins:
+  image: jenkins/jenkins:lts-jdk11
+  container_name: jenkins
+  ports:
+  - 8080:8080
+  volumes:
+  - /home/liat/devops-final-project:/var/jenkins_home/workspace/pull_file
+ tomcat:
+  image: tomcat
+  container_name: tomcat
+  ports: 
+  - 172.17.0.1:8082:8080
+  volumes:
+  - /home/liat/devops-final-project:/usr/local/tomcat/webapps/status
