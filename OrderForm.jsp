@@ -9,7 +9,7 @@
 <body style="background-color:#FF00FF;" align="center" width = "100%" border = "0" >
 	<table style="width:100%">
 		<tr >
-			<td><h1>Devops course in HIT - the best course students can get! </h1></td>
+			<td><h1>Devops Devops course in HIT - the best course students can get! </h1></td>
 		</tr>
 		<tr >
 			<td><h2>Which subjet you love the most?</h2></td>
